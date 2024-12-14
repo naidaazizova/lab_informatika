@@ -17,7 +17,7 @@
    Liam, 31, Product Manager
    ```
 2. Использование команды ``grep`` : 
-   Найти все строки, содержащие слово "Developer":
+   Найдем все строки, содержащие слово "Developer":
 
    ```
    grep "Developer" employees.txt
@@ -28,7 +28,7 @@
    James, 29, Web Developer
    Olivia, 40, Full Stack Developer
    ```
-   Найти все строки, содержащие слово "manager", игнорируя регистр: 
+   Найдем все строки, содержащие слово "manager", игнорируя регистр: 
 
    ```
    grep -i "manager" employees.txt
@@ -38,7 +38,7 @@
    ```
    Liam, 31, Product Manager
    ```
-   Отобразить строки, не содержащие слово "Analyst":
+   Отобразим строки, не содержащие слово "Analyst":
 
    ```
    grep -v "Analyst" employees.txt
@@ -51,7 +51,7 @@
    Olivia, 40, Full Stack Developer
    Liam, 31, Product Manager
    ```
-   Найти все строки, где возраст больше или равен 30:
+   Найдем все строки, где возраст больше или равен 30:
 
    ```
    grep -E "\b[3-9][0-9]\b" employees.txt
@@ -62,7 +62,7 @@
    Olivia, 40, Full Stack Developer
    Liam, 31, Product Manager
    ```
-   Найти строки, которые содержат либо "Developer", либо "Manager":
+   Найдем строки, которые содержат либо "Developer", либо "Manager":
 
    ```
    grep -E "(Developer|Manager)" employees.txt
