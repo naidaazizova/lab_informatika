@@ -81,7 +81,7 @@
    ```
    2024-12-01 12:30:45 ERROR user1 login failed
    2024-12-01 12:31:00 INFO user1 login successful
-   2024-12-01 12:35:30 ERROR user2 login failed
+   2024-12-01 12:36:30 ERROR user2 login failed
    2024-12-01 12:40:00 INFO user2 login successful
    ```
 2. Найдите все строки с ошибками `ERROR`
